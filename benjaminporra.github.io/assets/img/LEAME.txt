@@ -1,0 +1,5 @@
+Guardá tus imágenes en esta carpeta con estos nombres exactos:
+- foto-perfil.jpg
+- proyecto-corte-peso.png
+- proyecto-autito-seguidor.png
+- proyecto-casa-infrarrojo.png

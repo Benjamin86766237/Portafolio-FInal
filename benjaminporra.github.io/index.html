@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Personal | Benjamin Porra - Versión Final</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span class="logo-badge">MMA & IT</span>
+            <h2>Benjamin Porra</h2>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Presentación (Hero) -->
+        <section id="inicio" class="hero">
+            <div class="hero-contenido">
+                <span class="tag-presentacion">6.º E Especialidad Informática • Peleador Amateur de MMA</span>
+                <h1>Benjamin Porra</h1>
+                <p class="frase-profesional">Lógica de programación, desarrollo de sistemas y disciplina de alto rendimiento dentro y fuera del octágono.</p>
+                <div class="hero-botones">
+                    <a href="#proyectos" class="boton-cta primario">Explorar Proyectos</a>
+                    <a href="#contacto" class="boton-cta secundario">Contacto Seguro</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Sobre mí -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <div class="sobre-mi-contenedor">
+                <div class="perfil-imagen-box">
+                    <div class="badge-estado">Disponible para proyectos</div>
+                </div>
+                <div class="sobre-mi-texto">
+                    <p>¡Hola! Soy <strong>Benjamin Porra</strong>, tengo 17 años y curso el 6.° año de la especialidad Informática en el Instituto San Agustín. Mi rutina diaria se divide entre el desarrollo de código, la electrónica de sistemas embebidos y el entrenamiento intensivo como peleador amateur de Artes Marciales Mixtas (MMA).</p>
+                    <p>La combinación de la informática y el deporte de combate me dio una perspectiva única: el MMA requiere estrategia táctica, adaptabilidad inmediata y tolerancia a la presión; mientras que la programación exige precisión analítica, paciencia y estructura lógica. Aplico esta misma constancia y enfoque riguroso a cada proyecto tecnológico que desarrollo.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <p class="seccion-bajada">Selección de trabajos desarrollados en el ámbito deportivo, la robótica y la domótica automatizada.</p>
+
+            <div class="proyectos-grid">
+                
+                <!-- Proyecto 1: Corte de Peso -->
+                <article class="tarjeta">
+                    <div class="tarjeta-header">
+                        <span class="tag-proyecto mma">Deporte & Algoritmo de Datos</span>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5eeFxBJcJjx0l21HkWoCDuynKvpcoKptoCGM-mhF64w&s=10" alt="Planificación y Registro de Corte de Peso para MMA">
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <h3>Planificación y Control de Corte de Peso para Combate</h3>
+                        <p class="proyecto-item"><strong>Problema:</strong> Lograr la categoría de peso para una pelea de MMA de forma segura y eficiente, manteniendo los niveles de energía, hydration status y fuerza muscular sin poner en riesgo la salud.</p>
+                        <p class="proyecto-item"><strong>Solución:</strong> Diseñé un sistema estructurado de control y seguimiento diario de peso, ingesta hídrica, manipulación de sodio y macronutrientes, con protocolo de deshidratación controlada y rehidratación post-pesaje.</p>
+                        <p class="proyecto-item"><strong>Mi Aporte:</strong> Formulación de las planillas de monitoreo de datos biomecánicos, cálculo de porcentajes de pérdida hídrica diaria y seguimiento estricto del plan de acondicionamiento físico.</p>
+                        <p class="proyecto-item"><strong>Tecnologías / Herramientas:</strong> Gestión de Datos, Hojas de Cálculo (Excel), Bioestadística Aplicada y Nutrición Deportiva.</p>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2: Auto Seguidor de Línea (Tinkercad) -->
+                <article class="tarjeta">
+                    <div class="tarjeta-header">
+                        <span class="tag-proyecto robotica">Robótica & Arduino (Tinkercad)</span>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlqpMevxbivWliJoi2vrS3kJyvUqkcpeHOch0f5jb15w&s=10" alt="Simulación de Auto Seguidor de Línea en Tinkercad">
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <h3>Auto Seguidor de Línea Autónomo</h3>
+                        <p class="proyecto-item"><strong>Problema:</strong> Diseñar un vehículo terrestre autónomo capaz de recorrer un circuito trazado por una línea negra en el suelo, reaccionando en tiempo real a las curvas sin desviarse.</p>
+                        <p class="proyecto-item"><strong>Solución:</strong> Desarrollé la simulación completa en Tinkercad de un móvil diferencial controlado por Arduino UNO, con dos sensores infrarrojos de reflexión y un driver Puente H para el control independiente de motores DC.</p>
+                        <p class="proyecto-item"><strong>Mi Aporte:</strong> Ensamblado del esquema electrónico virtual, programación del algoritmo de control por comparación de umbrales infrarrojos y calibración de la modulación PWM para velocidad en curvas.</p>
+                        <p class="proyecto-item"><strong>Tecnologías / Herramientas:</strong> Tinkercad, C++ / Arduino IDE, Sensores Infrarrojos (TCRT5000/CNY70), Driver L298N / Motores DC.</p>
+                    </div>
+                </article>
+
+                <!-- Proyecto 3: Casa Domótica de Ventanas Infrarrojas (Tinkercad) -->
+                <article class="tarjeta">
+                    <div class="tarjeta-header">
+                        <span class="tag-proyecto domotica">Domótica & Automatización (Tinkercad)</span>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsCMwaJDrfzQyInHQ3kNZp0-CCW65oKiDBudMP8XZ67w&s=10" alt="Simulación de Casa Domótica en Tinkercad">
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <h3>Casa Domótica con Ventanas Automatizadas por Infrarrojo</h3>
+                        <p class="proyecto-item"><strong>Problema:</strong> Automatizar la apertura y cierre de ventanas en un modelo de vivienda inteligente para ventilación y seguridad sin contacto físico ni intervención manual constante.</p>
+                        <p class="proyecto-item"><strong>Solución:</strong> Creé un prototipo funcional en Tinkercad equipado con un sensor de proximidad/detección infrarrojo (IR), servomotores que actúan como bisagras mecánicas y un panel de estado con LEDs y zumbador de alerta.</p>
+                        <p class="proyecto-item"><strong>Mi Aporte:</strong> Conexión del circuito de control, desarrollo del código en C++ con mapeo de grados de giro del servomotor según la señal IR recibida y testing de tiempos de respuesta del sistema.</p>
+                        <p class="proyecto-item"><strong>Tecnologías / Herramientas:</strong> Tinkercad, Arduino, Sensor de Proximidad IR, Servomotor SG90, Lógica de Control C++.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Sección Habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades y Conocimientos</h2>
+            <div class="habilidades-contenedor">
+                <div class="categoria">
+                    <div class="cat-header">
+                        <h3>Desarrollo & Informática</h3>
+                    </div>
+                    <ul>
+                        <li><span class="dot"></span>HTML5 & CSS3 Semántico / Responsive Design</li>
+                        <li><span class="dot"></span>Lógica de Programación (JavaScript / C++ / Python)</li>
+                        <li><span class="dot"></span>Simulación de Circuitos & Robótica en Tinkercad</li>
+                        <li><span class="dot"></span>Microcontroladores Arduino & Sensores (IR, Ultrasonido)</li>
+                        <li><span class="dot"></span>Control de Versiones con Git y Publicación en GitHub Pages</li>
+                    </ul>
+                </div>
+                <div class="categoria">
+                    <div class="cat-header">
+                        <h3>Alto Rendimiento & Habilidades Blandas</h3>
+                    </div>
+                    <ul>
+                        <li><span class="dot"></span>Disciplina y enfoque bajo situaciones de alta presión</li>
+                        <li><span class="dot"></span>Planificación rigurosa de metas (Cortes de peso / Entregas)</li>
+                        <li><span class="dot"></span>Resolución de problemas con análisis táctico</li>
+                        <li><span class="dot"></span>Adaptabilidad rápida a cambios de entorno</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si deseas comunicarte para proyectos informáticos, consultas escolares o colaboración técnica, utilizá mis canales oficiales:</p>
+            <div class="contacto-cards">
+                <div class="contacto-card">
+                    <h4>Correo Académico</h4>
+                    <p>l.b_porra66@institutosanagustin.com.ar</p>
+                </div>
+                <div class="contacto-card">
+                    <h4>Perfil de GitHub</h4>
+                    <p><a href="https://github.com/lbporra66-hub" target="_blank" rel="noopener">github.com/benjaminporra</a></p>
+                </div>
+                <div class="contacto-card">
+                    <h4>Institución</h4>
+                    <p>Instituto San Agustín — 6.º E Informática</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Benjamin Porra — Portfolio v1.0 Final | Aplicaciones Informáticas II</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
